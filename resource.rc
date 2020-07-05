@@ -1,0 +1,128 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 420, 237
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "UPX Packer Detector v0.1 (Beta)"
+FONT 7, "Microsoft Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,406,128,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Browse",IDC_CHECKDIR,318,193,38,14,BS_FLAT | 
+                    WS_DISABLED
+    PUSHBUTTON      "Exit",IDC_EXIT,369,193,38,14,BS_FLAT
+    PUSHBUTTON      "Browse",IDC_CHECKFILE,318,158,38,14,BS_FLAT
+    GROUPBOX        "Single File Scan :",IDC_STATIC,27,144,339,36
+    CONTROL         "",IDC_RADIOFILE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    12,154,13,14
+    EDITTEXT        IDC_FILEPATH,35,158,279,14,ES_READONLY
+    GROUPBOX        "Directory Scan :",IDC_STATIC,27,179,339,47
+    EDITTEXT        IDC_DIRPATH,35,193,279,14,ES_READONLY
+    CONTROL         "",IDC_RADIODIR,"Button",BS_AUTORADIOBUTTON | BS_FLAT,12,
+                    189,13,14
+    LTEXT           "Scaned Files : -",IDC_SCANFILES,177,213,43,8,
+                    WS_DISABLED
+    CONTROL         "Scan Subfolders",IDC_SCANSUBFOLDERS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,35,
+                    213,61,10
+    CONTROL         "Generate Report File",IDC_GENREPORT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,100,
+                    213,73,10
+    PUSHBUTTON      "Scan",IDC_SCAN,369,158,38,14,BS_FLAT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "arteam.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
